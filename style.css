@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+body {
+  margin: 0;
+  padding: 40px 0 100px;
+
+  background-color: #284b59;
+  background-image: radial-gradient(
+    circle,
+    rgb(44, 83, 100),
+    rgb(32, 58, 67),
+    rgb(15, 32, 39)
+  );
+
+  font-family: Manrope, sans-serif;
+}
+
+h1 {
+  margin-bottom: 80px;
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 32px;
+}
+.swiper {
+  margin: 0 auto;
+  width: 660px;
+  padding-bottom: 50px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.no-select {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none; /* Стандартный синтаксис */
+}
